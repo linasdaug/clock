@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+#clockholder {
+    position: relative;
+    margin: 0 auto;
+    height: 100vh;
+    display: none;
+}
+
+.hours {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-23%, -50%);
+    width: 54%;
+    height: 5px;
+    padding-left: 15px;
+}
+
+.pointer {
+    position: relative;
+    left: 0;
+    top: -30px;
+    font-size: 20px;
+}
+
+#arrow-sec-holder {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-23%, -50%);
+    width: 54%;
+    height: 3px;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+#arrow-sec {
+    position: relative;
+    width: 60%;
+    background: linear-gradient(to left, black, grey);
+    height: 3px;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+}
+
+#arrow-min-holder {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-23%, -50%);
+    width: 54%;
+    height: 4px;
+    text-align: left;
+    transition: all 0.6s;
+}
+
+#arrow-min {
+    position: relative;
+    width: 53%;
+    background: linear-gradient(to left, black, grey);
+    height: 4px;
+    top: 0;
+    left: 0;
+    margin: 0 30px;
+    border-radius: 3px;
+}
+
+#arrow-hr-holder {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translate(-23%, -50%);
+    width: 54%;
+    height: 6px;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+#arrow-hr {
+    position: relative;
+    width: 45%;
+    background: linear-gradient(to left, black, grey);
+    height: 6px;
+    top: 0;
+    left: 0;
+    margin: 0 80px;
+    border-radius: 6px;
+}
